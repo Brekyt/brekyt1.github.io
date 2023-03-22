@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+input {
+  display: block;
+  height: 30px;
+}
+
+input:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  height: 40px;
+  background: green;
+  border: none;
+  outline: 1px solid green;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.clear {
+  outline: 1px solid red;
+  width: 50vw;
+  background-color: red;
+}
+
+.mainUsers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+}
+
+.user {
+  background-color: #f5f1f1;
+  width: 40vw;
+  margin-bottom: 10px;
+}
+
+.user-outer {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.delete,
+.change {
+  border: none;
+  height: 40%;
+  color: white;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.delete {
+  background: red;
+}
+
+.change {
+  background: green;
+}
